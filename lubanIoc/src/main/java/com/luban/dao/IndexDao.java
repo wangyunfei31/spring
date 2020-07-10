@@ -24,6 +24,11 @@ public class IndexDao implements Dao, Serializable, FactoryBean {
 
 	}
 
+	@Override
+	public String queryByName(String name) {
+		return null;
+	}
+
 
 	@Override
 	public Object getObject() throws Exception {
